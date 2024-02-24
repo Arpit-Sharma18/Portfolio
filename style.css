@@ -1,0 +1,397 @@
+body {
+    /* Grey Background so that white stripe doesn't bleed into background  */
+    background: #fefffc;
+  }
+  
+  .container {
+  /* Make Flag at the center of the container  */
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  /* Stripe  */
+  .stripe {
+    width: 225px;
+    height: 50px;
+  }
+  /* Saffron Stripe  */
+  #saffron {
+    background: #FF9933;
+  }
+  /* White Stripe */
+  #white {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Green Stripe  */
+  #green {
+    background: #138808;
+  }
+  /* Ashoka Chakra Image */
+  .ashok_chakra {
+    height: 40px;
+    width: 40px;
+  }
+  /* Patriotic Message */
+  .message {
+    text-align: center;
+  }
+  /* Color of INDIA */
+  .message span{
+    /* Navy Blue of Ashoka Chakra */
+    color: #000080;
+  }
+  
+  #four {
+    background-color: rgb(16, 6, 8);
+    height: 200px;
+    width: 100px;
+  }
+  #one {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin: 20px;
+    
+    
+  }
+  #two {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  #three {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  #nav {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+  }
+  button{
+    background-color: #f08804;
+    color: white;
+  }
+  #logo {
+    color: #f08804;
+    font-size: 25px;
+  }
+  .a {
+    margin-right: 160px;
+    color: white;
+    text-decoration: none;
+  }
+  #Doubt {
+    text-align: center;
+  }
+
+ #pq {
+  font-family: League spartan;
+  color: #ffa511;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-decoration: teal double underline;
+  text-transform: uppercase;
+ }
+
+
+ #head {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+ }
+ #poem {
+  columns: brown;
+  text-align: center;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+ }
+ #author {
+  text-align: center;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #site {
+  color: rgb(0,215,50);
+  text-decoration: none;
+ }
+
+ #but {
+  background-color: white;
+  color: blueviolet;
+
+ }
+ .card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: inline-block; 
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  transition: 1s;
+ }
+ .disc {
+  border: 2px solid black;
+ }
+   .m {
+   width: 100%;
+   border-radius: 5px 5px 0 0 ;
+ }  
+ .card:hover {
+  box-shadow: 2px 2px 16px black;
+ }
+
+
+ #smile {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: 2px solid black;
+  transition: 1s;
+  position: absolute;
+  left: 550px;
+ }
+
+ #smile:hover {
+  box-shadow: 2px 2px 16px black;
+ }
+
+ #innersmile {
+  width: 180px;
+  height: 180px;
+  background-color: orange;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+#eye1 {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+#eye2 {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+
+#mouth {
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  left: 40px;
+  top: 100px;
+  border-radius: 0 0 20px 20px;  
+  border: 2px solid black;
+  transition: 2s;
+  
+}
+#mouth:hover {
+  border-radius: 0 0 200px 200px; 
+}
+
+#innersmile:hover {
+  box-shadow: 2px 2px 16px blue;
+ 
+}
+
+
+/* Qs1. Add a 2s transition on box1 for width changes.
+       It should have 'ease-in' speed curve & 0.5s delay  */
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 1s ease-in 0.5s;
+}
+
+#box1:hover {
+  width: 600px;
+}
+
+/* Qs2. Using transform, move box2 200px to the right  & 
+        200px down. Also rotate it 90deg.*/
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  /* transform: rotate(90deg); */
+  transition:  1s ease-in 0.5s;
+}
+#box2:hover {
+  transform: translate(200px, 200px) rotate(90deg);
+  
+}
+
+/* Qs3. Using transform, skew box3 20deg along the x axis.*/
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transform: skewX(20deg);
+}
+
+/* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
+        for box4, with a 5px blur radius.*/
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+  box-shadow: 2px 2px 5px green;
+}
+
+/* Qs5. Set Your picture or any picture as the background of the div
+        "myPic". Also, set transparency of this div to 50%. */
+
+#myPic {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: pink;
+  background-image: url(photo.jpeg);
+  background-size: cover;
+  opacity: 50%;
+  
+}
+
+#grid {
+  height: 300px;
+  width: 600px;
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  grid-gap: 10px 10px;
+  /* justify-items: center;
+  align-items: center; */
+  place-items: center;
+}
+  
+.item {
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: greenyellow;
+  text-align: center;
+
+}
+ 
+.one {
+   /* grid-column-start: 1;
+  grid-column-end: 3;  */
+   /* grid-column: 1/3; */
+   /* justify-self: end; */
+   place-self: center;
+}
+/* .two {
+  grid-row: 1/3;
+}  */
+
+
+.king {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(91, 20, 20);
+  color: aquamarine;
+  
+  animation-name: fontanimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes fontanimate {
+  from {
+    font-size: 20px;
+    color: aquamarine;
+    background-color: black;
+  }
+  to {
+    font-size: 33px;
+    color: yellow;
+    background-color: red;
+  }
+}
+/* 
+.king {
+  height: 500px;
+  width: 500px;
+  background-color: pink;
+  
+} */
+/* 
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+ 
+}
+
+h2 {
+  color: #d56f3e;
+}
+
+span {
+  color: #9d6f24;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
+  #pets {
+    flex-wrap: wrap;
+  }
+} */
